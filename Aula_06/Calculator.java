@@ -1,4 +1,4 @@
-//Incompleto - Concluir
+// Incompleto - Concluir
 
 // package Aula_06;
 
@@ -107,7 +107,7 @@
 
 
 
-//Teste com Peto
+// Teste com Peto
 
 // public class ExibirLadoALado {
 //     public static void main(String[] args) {

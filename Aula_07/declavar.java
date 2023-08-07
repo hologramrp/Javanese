@@ -1,21 +1,24 @@
+// *------------------------------------------------------------------
+// Sobre a criação:
+// Autor : Matheus da Rosa - Quixotte
+// Repositório : https://github.com/quixote404
+// E-mail : hologramrp.@proton.me
+// *------------------------------------------------------------------
+// Sobre o programa:
+// Versão : 0.1 - DATA 06/08/2023
+// Data : Testes básicos efetuados abaixo
+// License : None
+// *------------------------------------------------------------------
+
+
 package Aula_07;
 
 public class declavar {
     public static void main(String[] args) {
-    // Exercício
-    
+        
         limparTela();
         enunciado();
         exercicio();
-
-    /* Em um concurso de perguntas e respostas, um jovem acertou 72 de 90 perguntas apresentadas.
-    * 
-    * Qual foi a porcentagem de acertos?
-    * E qual foi a porcentagem de erros?
-    * 
-    */  
-
-//        modulo_principal();
     }
 
     static void limparTela(){
@@ -24,6 +27,17 @@ public class declavar {
     }
 
     static void exercicio(){
+
+    /* Em um concurso de perguntas e respostas, um jovem acertou 72 de 90 perguntas apresentadas.
+    * 
+    * Qual foi a porcentagem de acertos?
+    * E qual foi a porcentagem de erros?
+    * 
+    */  
+
+
+        //Declarando as variáveis.
+
         int perguntas;
         int acertos;
         int erros;
@@ -33,10 +47,13 @@ public class declavar {
         acertos = 72;
         perguntas = 90;
 
+        // (Valor * 100 / total) Fluxo de porcentagem.
+        
         erros = (perguntas - acertos); // (90 - 72) = 18
         porcentagem_erros = ((erros * 100) / perguntas);
         porcentagem_acertos = ((acertos * 100) / perguntas);
 
+        // Saída de texto
         System.out.printf("""
                 
         
